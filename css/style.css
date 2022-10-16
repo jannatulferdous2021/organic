@@ -1,13 +1,49 @@
 /*  =======================
     Author: Jannatul Ferdous
     Author URL:  jannatulferdous1.netlify.app 
-    Temnplete-Name: Fiverr
+    Temnplete-Name: organic
     version: 1.0 
     ================================*/
 
     /* ======================
         Table Of Content
-    
+        ==================
+         
+     navbar
+     vnav li:nth-child(3) button
+     nav li:nth-child(3) button:hover
+     nav li:nth-child(4) i
+     ban-con
+     ban-text
+     ban-text h5
+     ban-text h1
+     ban-text p
+     ban-text button
+     products1
+     review
+     card1-con
+     cardsec1 img
+     cardsec1 h4
+     cardsec-1 p
+     card2     
+     card2 img
+     shop-con
+     card3-text button
+     card3-text button:hover
+     card3-text h4
+     card3
+     card3 img
+     purchase
+     free
+     review-text i
+     review-img
+     card4
+     rev-card
+     company-con
+     footer
+     fbtn button img
+     fbtn button:hover
+     fbtn
     
     */
 /* =========================
@@ -34,6 +70,7 @@
         --bs-blue: #001523; 
         --bs-offgray: #FCFBF9;
      }
+
 
 
      .navbar{
@@ -93,6 +130,7 @@
      .products1{
       margin-top: 100px;
      }
+
      .review{
       margin-top: 100px;
      }
@@ -131,6 +169,7 @@
         height: 450px;
         border: none;
      }
+
      .card2 img{
         height: 290px;
      }
@@ -180,6 +219,8 @@
      .review-text i{
         color: var(--bs-yellow);
      }
+
+
      .review-img{
         display: flex;
         justify-content:center;
