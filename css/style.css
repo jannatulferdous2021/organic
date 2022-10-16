@@ -1,0 +1,344 @@
+/*  =======================
+    Author: Jannatul Ferdous
+    Author URL:  jannatulferdous1.netlify.app 
+    Temnplete-Name: Fiverr
+    version: 1.0 
+    ================================*/
+
+    /* ======================
+        Table Of Content
+    
+    
+    */
+/* =========================
+    Global CSS
+    ============== */
+/* ====================
+    Commmon CSS
+ */
+
+
+
+    /*----------------
+     root file 
+     --------------- */
+     :root
+     {
+        --bs-white: #FFFFFF; 
+        --bs-green: #91C352; 
+        --bs-yellow: #F7BC24;
+        --bs-deepgray:#303030;
+        --bs-offpeach: #F7F6F2; 
+        --bs-black: #111111; 
+        --bs-gray: #C6C6C6; 
+        --bs-blue: #001523; 
+        --bs-offgray: #FCFBF9;
+     }
+
+
+     .navbar{
+        height: 100px;
+     }
+     .navbar-nav  li a{
+        font-size: 18px;
+        margin: 0px 10px;
+     }
+     .nav li:nth-child(3) button{
+        padding: 15px 18px;
+        font-size: 18px;
+        font-weight: 500;
+        border: 1px solid var(--bs-green);
+        color: var(--bs-green);
+     }
+     .nav li:nth-child(3) button:hover{
+        color: white;
+        background-color: var(--bs-green);
+     }
+     .nav li:nth-child(4) i{
+        margin-left: 20px;
+        font-size: 35px;
+        padding: 10px 10px 0px 10px;
+        border-radius: 100px;
+        background-color: var(--bs-gray);
+        color: var(--bs-white);
+     }
+
+     .ban-con{
+        background-color: var(--bs-offgray);
+        height: 100vh;
+     }
+     .ban-text{
+        margin-left: 70px;
+     }
+     .ban-text h5{
+        color: var(--bs-deepgray);
+     }
+     .ban-text h1{
+        font-weight: bold;
+        font-size: 60px;
+        color: var(--bs-black);
+     }
+     .ban-text p{
+        color: var(--bs-deepgray);
+     }
+     .ban-text button{
+        padding: 12px 35px;
+        background-color: var(--bs-green);
+        border: none;
+     }
+     .ban-text button:hover{
+         background-color: var(--bs-white);
+         color: var(--bs-green);
+     }
+     .products1{
+      margin-top: 100px;
+     }
+     .review{
+      margin-top: 100px;
+     }
+     .card1-con{
+        background-color: var(--bs-black);
+        height: 26vh;
+     }
+     .cardsec-1{
+        background-color: var(--bs-deepgray);
+        height: 105px;
+     }
+     .cardsec1 img{
+        height: 35px;
+        width: auto;
+     }
+     .cardsec1 h4{
+        color: var(--bs-white);
+        margin-left: 10px;
+        margin-top: 4px;
+        font-size: 24px;
+     }
+     .cardsec-1 p{
+        margin-left: 54px;
+        color: var(--bs-white);
+     }
+     .products1{
+        height: 100vh;
+     }
+     .heading h1{
+
+     }
+     .heading img{
+        width: 80px;
+     }
+     .card2{
+        height: 450px;
+        border: none;
+     }
+     .card2 img{
+        height: 290px;
+     }
+     .shop-con{
+        background-color: var(--bs-offgray);
+        height: 80vh;
+     }
+     .card3-text button{
+        padding: 10px 30px;
+        background-color: var(--bs-green);
+        border: none;
+        font-weight: bold;
+     }
+     .card3-text button:hover{
+        background-color: var(--bs-white);
+        color: var(--bs-green);
+     }
+     .card3-text h4{
+        font-weight: bold;
+        color: #303030;
+     }
+     .card3{
+        border: none;
+        height: 350px;
+     }
+     .card3 img{
+        width: 220px;
+        margin-left: 90px;
+     }
+     .purchase{
+        background-color: var(--bs-black);
+        height: 20vh;
+        color: #FFFFFF;
+     }
+     .free{
+        height: 20vh;
+        background-color: var(--bs-offgray);
+     }
+     .review{
+        height: 100vh;
+        background-color: var(--bs-offpeach);
+     }
+     .review img {
+        width: 50px;
+        border-radius: 100px;
+     }
+     .review-text i{
+        color: var(--bs-yellow);
+     }
+     .review-img{
+        display: flex;
+        justify-content:center;
+     }
+     .card4{
+        border: none;
+        height: 300px;
+     }
+     .rev-card{
+        background-image: linear-gradient(transparent, rgb(31, 28, 28)), url(/images/fruits.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px ;
+        color: var(--bs-white);
+        /* opacity: 0.22; */
+     }
+     .company-con{
+        background-color: var(--bs-offpeach);
+        height: 30vh;
+     }
+     footer{
+        background-color: var(--bs-blue);
+        height: 40vh;
+        color: var(--bs-white);
+     }
+     .fbtn button img{
+      width: 40px;
+     }
+     .fbtn button{
+      border: 1px solid white;
+      background-color: black;
+      color: var(--bs-white);
+      height: 50px;
+     }
+     .fbtn button i{
+      color: var(--bs-white);
+      font-size: 40px;
+      /* margin-left: 10px; */
+     }
+     .fbtn button:hover{
+      background-color: white;
+      color: var(--bs-black);
+     }
+     .fbtn{
+      margin-left: 180px;
+     }
+
+
+      @media (max-width: 991.98px) { 
+         .ban-con{
+            height: 100vh;
+         }
+         .ban-text h1{
+            font-size: 45px;
+         }
+         .card1-con{
+            height: 50vh;
+         }
+         .cardsec-1{
+            margin-top: 10px;
+         }
+         .products1{
+            height: 150vh;
+         }
+         .purchase{
+            height: 40vh;
+         }
+         .fbtn{
+            margin-left: 50px;
+         }
+       }
+       @media (max-width: 767.98px) { 
+         .ban-con{
+            height: 130vh;
+         }
+         .ban-text{
+            margin-left: 30px;
+         }
+         .ban-text h1{
+            font-size: 40px;
+         }
+         .card1-con{
+            height: 100vh;
+         }
+         .products1{
+            margin-bottom: 1600px;
+         }
+         .shop-con{
+            margin-bottom: 300px;
+         }
+         .purchase{
+            height: 30vh;
+         }
+         .review{
+            margin-bottom: 700px;
+         }
+         footer{
+            height: 70vh;
+         }
+      }
+      @media (max-width: 575.98px) {
+         .ban-con{
+            height: 130vh;
+         } 
+         .ban-text{
+            margin-top: 100px;
+            /* height: 100vh; */
+            margin-left:  20px;
+         }
+         .ban-text h1{
+            font-size: 35px;
+         }
+         .ban-text button{
+            padding: 10px 15px;
+         }
+         .card1-con{
+            height: 100vh;
+         } 
+         .cardsec-1{
+            width: 300px;
+         }
+         .cardsec-1{
+           margin-top: 15px;
+         }
+         .products1{
+            margin-bottom: 1600px;
+         }
+         .purchase{
+            height: 40vh;
+            margin-top: 300px;
+         }
+         .free{
+            height: 10vh;
+         }
+         .rev-card{
+            margin-top: 50px;
+         }
+         .company-con{
+            display: none !important;
+         }
+         .review{
+            margin-top: 100px;
+            margin-bottom: 700px;
+         }
+         footer{
+            margin-top: 350px;
+            height: 80vh;
+         }
+         footer{
+            display: flex;
+            flex-direction: column;
+         }
+         .fbtn{
+            margin-left: 5px;
+            margin-top: 5px;
+         }
+         .fbtn{
+            display: flex;
+            flex-wrap: wrap;
+         }
+        }
